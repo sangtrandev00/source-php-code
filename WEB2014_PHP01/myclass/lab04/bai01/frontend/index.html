@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1 shopping cart - Tạo form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form" id="form1">
+            <h1>Register form</h1>
+            <!-- lastName -->
+            <div class="form-group">
+                <label class="form-label" for="last-name">Tên đăng nhập: </label>
+                <input type="text" name="textInput" id="username" class="form-control" placeholder="Enter Username">
+            </div>
+            <!-- Password -->
+            <div class="form-group">
+                <label class="form-label" for="last-name">Mật khẩu: </label>
+                <input type="password" name="textInput" id="password" class="form-control" placeholder="Enter Email">
+            </div>
+            <!-- reenter password -->
+            <div class="form-group">
+                <label class="form-label" for="last-name">Nhập lại mật khẩu: </label>
+                <input type="password" name="textInput" id="re-password" class="form-control"
+                    placeholder="Enter Password">
+            </div>
+            <!-- Email -->
+            <div class="form-group">
+                <label for="" class="form-label">Email</label>
+                <input type="email" name="" id="email" class="form-control" placeholder="Confirm Password">
+            </div>
+            <!-- button -->
+            <input class="form-btn form-btn--accept" type="submit" value="Register">
+            <!-- <button class="form-btn form-btn--accept" onclick="return kiem_tra()">Đăng ký</button> -->
+        </form>
+        <!-- <h3>Section</h3> -->
+        <form class="form" id="form2">
+            <h1>Login Form</h1>
+            <!-- lastName -->
+            <div class="form-group">
+                <label class="form-label" for="last-name">Tên đăng nhập: </label>
+                <input type="text" name="textInput" id="username" class="form-control" placeholder="Enter Username">
+            </div>
+            <!-- Password -->
+            <div class="form-group">
+                <label class="form-label" for="last-name">Mật khẩu: </label>
+                <input type="password" name="textInput" id="password" class="form-control" placeholder="Enter Email">
+            </div>
+            <!-- button -->
+            <input class="form-btn form-btn--accept" type="submit" value="Login">
+            <!-- <button class="form-btn form-btn--accept" onclick="return kiem_tra()">Đăng ký</button> -->
+            <p>Click here to <a href="" class="form-link">Register</a></p>
+        </form>
+    </div>
+
+</body>
+
+</html>

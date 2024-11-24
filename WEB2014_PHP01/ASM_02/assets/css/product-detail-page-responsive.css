@@ -1,0 +1,143 @@
+
+
+
+@media only screen and (min-width: 63.9375rem) {
+   
+}
+
+/* breakpoint for tablet and mobile */
+@media only screen and (max-width: 63.9375em) {
+    .main-product__info {
+        text-align: justify;
+    }
+}
+
+
+/* breakpoint for tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    :root {
+        --v-sm-spacing: 2rem;
+    }
+
+    .main-product {
+        grid-template-columns: 50% 50%;
+    }
+
+    .main-product__images {
+        /* width: 50%; */
+    }
+
+    .main-product__price {
+        
+    }
+
+    .main-product__ratings {
+        
+    }
+
+    .main-product__desc {
+        /* width: 50%; */
+        padding-left: 2rem;
+    }
+
+
+    .main-product__colors {
+        
+    }
+
+    .main-product__button {
+        width: 16rem
+    }
+
+    .main-product__size {
+        
+    }
+
+    .main-product__size-selections {
+        grid-template-columns: repeat(5,7rem)
+    }
+
+    .full-desc__content-item {
+        text-align: justify;
+    }
+
+    .full-desc__item--active::before {
+        width: 15rem;
+    }
+
+    
+    
+
+}
+
+/* breakpoint for mobile */
+@media only screen and (max-width: 46.1875em) {
+
+    :root {
+        --v-sm-spacing: 2rem;
+    }
+
+    .section-heading {
+        margin-top: 3rem;
+    }
+
+    .detail-product__sub-title {
+        font-size: 1.8rem;
+    }
+    .main-product {
+        grid-template-columns: 100%;
+        row-gap: 2rem;
+    }
+
+    .main-product__avatar {
+        height: 50rem;
+    }
+
+    .main-product__avatar-img {
+        height: 100%;
+    }
+
+    .main-product__desc {
+        padding-left: 0rem;
+    }
+
+    .main-product__buttons {
+        grid-template-columns: 100%;
+        row-gap: 1rem;
+    }
+
+    .main-product__button {
+        width: 100%;
+    }
+
+    .full-desc__mobile{
+        list-style: none;
+        margin-top: 2rem;
+    }
+    .full-desc__mobile-item{
+    
+    }
+    .full-desc__mobile-item-title{
+        font-size: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--primary-color-1);
+        padding: 0.5rem 1rem;
+    }
+    .full-desc__mobile-item-title-text {
+
+    }
+
+    .full-desc__mobile-item-title-icon {
+        
+    }
+
+    .full-desc__mobile-item-desc{
+        margin-top: 2rem;
+        font-size: 1.4rem;
+        text-align: justify;
+        padding: 0.5rem 1rem;
+    }
+}
+

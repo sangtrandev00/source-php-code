@@ -1,0 +1,44 @@
+/* Break point for desktop */
+@media only screen and (min-width: 63.9375rem) {
+    
+}
+
+/* breakpoint for tablet and mobile */
+@media only screen and (max-width: 63.9375em) {
+
+}
+
+/* breakpoint for tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .order-completed__clock-svg {
+        top: 16rem;
+    }
+}
+
+
+
+/* breakpoint for mobile */
+@media only screen and (max-width: 46.1875em) {
+    .order-completed__section {
+        width: auto;
+    }
+
+    .order-completed__clock-svg {
+        top: 14rem;
+        width: 8rem;
+    }
+
+    .order-completed__check-ticker {
+        width: 8rem;
+    }
+
+    .order-completed__success-title {
+        font-size: 3rem;
+    }
+
+    .order-completed__check-list-svg {
+        bottom: -2rem;
+        width: 8rem;
+    }
+}
+

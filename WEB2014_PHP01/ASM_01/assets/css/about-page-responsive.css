@@ -1,0 +1,58 @@
+/* Break point for desktop */
+@media only screen and (min-width: 63.9375rem) {
+    
+}
+
+/* breakpoint for tablet and mobile */
+@media only screen and (max-width: 63.9375em) {
+    .about-us__banner-desc {
+        padding-left: 0;
+    }
+
+    .about-us__banner-text {
+        text-align: justify;
+    }
+}
+
+/* breakpoint for tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .section-heading {
+        
+    }
+
+    .about-us__banner-title {
+        margin-top: 0;
+    }
+}
+
+
+
+/* breakpoint for mobile */
+@media only screen and (max-width: 46.1875em) {
+    .about-us__banner {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+
+    
+
+    
+
+    .about-us__founders-list {
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+
+    .about-us__founder-img {
+        object-fit: cover;
+    }
+
+    .testimonials__row {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials__info {
+        text-align: center;
+    }
+}
+

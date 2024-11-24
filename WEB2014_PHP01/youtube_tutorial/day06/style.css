@@ -1,0 +1,23 @@
+*,
+*:before, *:after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.boxcenter {
+    display: flex;
+}
+
+.boxsp {
+    width: 33.333%;
+    text-align: center;
+}
+
+form p span {
+    color: red;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+}
+.title{
+    text-align: center;
+}
+
+.product-list{
+    display: flex;
+}
+
+.product-item{
+    width: 33.333%;
+    
+}
+
+.product-item__wrap{
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-item__img{
+    width: 100%;
+}
+
+.product-item__title{
+    color: blue;
+}
+
+.product-item__pice{
+    color: orange;
+    font-weight: bold;
+}
+
+.product-item__cate{
+
+}
+
+.product-item__btn {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+

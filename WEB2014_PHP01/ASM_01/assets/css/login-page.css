@@ -1,0 +1,127 @@
+/* signup section */
+
+.signup-page-success__title {
+    margin-top: 10rem;
+    font-size: 3rem;
+    color: var(--primary-color-1);
+    font-weight: bold;
+    text-align: center;
+}
+
+.signup-page-success__icon {
+    text-align: center;
+}
+
+.signup-page-success__icon svg {
+    display: inline-block;
+}
+
+
+/* signup end section */
+
+.login-page{
+    min-width: 1200px;
+    width: 100%;
+    margin: 4.8rem auto;
+    height: 93rem;
+}
+.login-page__wrap{
+    display: flex;
+    height: 100%;
+}
+.login-page__left-section{
+    width: 50%;
+    height: 100%;
+}
+.login-page__left-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color-1);
+    height: 100%;
+}
+.login-page__left-img-img{
+
+}
+.login-page__right-section{
+    width: 50%;
+    padding: 0rem 4rem;
+}
+
+.login-page__right-wrap {
+    width: 43rem;
+}
+
+.login-page__back-to-last-page {
+    text-align: right;
+}
+
+.previous-page-icon{
+    
+}
+.login-page__title{
+    margin-top: 10rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.login-page__notify-info{
+    font-size: 1.8rem;
+    color: #8692A6;
+}
+.login-page__form{
+    margin-top: 2rem;
+   
+}
+
+.login-page__form-remember {
+    font-size: 1.6rem;
+}
+
+.form-group{
+
+}
+.form-label{
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+.form-control{
+    width: 100%;
+    height: 4.6rem;
+    border: 1px solid #8692A6;
+    border-radius: 6px;
+}
+
+.login-page__remember-checkbox {
+    font-size: 1.6rem;
+}
+
+.login-page__btn{
+    margin-top: 1rem;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: var(--primary-color-1);
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.login-page__signup{
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+    text-align: center;
+    color: #696F79;
+}
+.login-page__signup-link{
+    text-decoration: none;
+    color: var(--primary-color-1);
+}
+.login-page__forgot-pass{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 1.6rem;
+}
+.login-page__forgot-pass-link{
+    text-decoration: none;
+    color: #696F79;
+}

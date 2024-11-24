@@ -1,0 +1,41 @@
+/* Break point for desktop */
+@media only screen and (min-width: 63.9375rem) {
+    
+}
+
+/* breakpoint for tablet and mobile */
+@media only screen and (max-width: 63.9375em) {
+    .footer__input-email {
+        width: 20rem;
+   }
+}
+
+/* breakpoint for tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+   
+}
+
+
+
+/* breakpoint for mobile */
+@media only screen and (max-width: 46.1875em) {
+    .contact-us__banner {
+        margin-left: -2rem;
+        margin-right: -2rem;
+    }
+
+    .contact-us__banner-text {
+        top:0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .contact-us__section {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-us__location {
+        padding-left: 0;
+    }
+}
+

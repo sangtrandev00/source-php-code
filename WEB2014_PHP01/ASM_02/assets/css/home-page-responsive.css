@@ -1,0 +1,385 @@
+
+@media only screen and (min-width: 63.9375rem) {
+    
+}
+
+/* breakpoint for tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+    /* Slider section tablet */
+    .slider__wrap {
+        top: 8rem;
+        left: 8rem;
+    }
+    
+    .slider__content {
+        font-size: 4.5rem;
+        line-height: 6.75rem;
+    }
+
+    .slider__dot-wrap {
+        bottom: 2rem;
+    }
+
+    .slider__shop-btn {
+        top: 2rem;
+    }
+
+    /* catalog section tablet */
+
+    .catalog {
+        flex-wrap: wrap;
+        margin-left: -2rem;
+        /* display: grid; */
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        /* column-gap: 1rem; */
+        height: auto;
+        width: auto;
+        margin-right: 0;
+
+    }
+
+    .catalog__item {
+        /* width: 100%; */
+        width: calc(33.3333% - 2rem);
+        margin: 0;
+        /* height: 20rem; */
+        margin-left: 2rem;
+    }
+
+
+    /* Flash sale tablet section */
+
+    .flash-sale__heading {
+        margin-top: 4rem;
+    }
+
+    /* Latest arrivals */
+    .latest-arrivals__title {
+        margin-top: 4rem;
+    }
+
+    /* for men - for women - for shoes */
+    .for-women, .for-men ,.for-shoes {
+        margin-top: 4rem;
+    }
+
+    /* Blog section tablet */
+    .blog-section {
+        padding: 4rem 0rem;
+    }
+
+    .blog-section__heading {
+        margin: 0rem;
+    }
+    .blog-section__content-left {
+        margin-top: 2rem;
+    }
+
+    .blog-section__content-right {
+        padding: 0rem 2rem;
+    }
+
+    .blog-section__content {
+        flex-wrap: wrap;
+    }
+
+    .blog-section__content-heading {
+        margin-top: 2rem;
+    }
+
+    .blog-section__content-desc {
+        text-align: justify;
+    }
+    
+
+    .blog-section__content-img {
+        width: 100%;
+    }
+
+    .blog-section__content-col {
+        width: 100%;
+    }
+
+    /* New collection section */
+
+    .new-collections__title::before {
+        top: 30rem;
+        left: -33rem;
+        font-size: 3.0rem;
+    }
+    
+    .new-collections__item-cate {
+        bottom: 6rem;
+    }
+
+    .new-collections__img {
+        width: 80%;
+    }
+
+    .new-collections__img--forwomen {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .new-collections__img--formen {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    /* Feedback section tablet */
+
+    .feedback__container {
+        padding: 0rem 2rem;
+    }
+
+    .feedback__slogan {
+        font-size: 3rem;
+        margin: 2rem 0;
+    }
+
+    .feedback__content {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        
+    }
+
+
+    .feedback__item {
+        width: calc(50% - 2rem);
+        flex-shrink: 0;
+    }
+
+    /* Instagram section tablet */
+    .instagram__title::before {
+        width: 78%;
+    }
+
+    .instagram__gallery {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        /* width: 100%; */
+    }
+
+    .instagram__item {
+        width: calc(100% / 3);
+        flex-shrink: 0;
+    }
+
+}
+
+/* breakpoint for tablet and mobile */
+@media only screen and (max-width: 63.9375em) {
+    .hide-on-tablet-mobile {
+        display: none;
+    }
+
+    /* Designing for scroll-bar */
+    
+}
+
+/* breakpoint for mobile */
+@media only screen and (max-width: 46.1875em) {
+
+
+    /* Slider section */
+
+    .slider__wrap  {
+        top: 4rem;
+        left: 4rem;
+    }
+
+    .slider__content {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .slider__dot-wrap {
+        bottom: -1.2rem;
+    }
+
+    .slider__dot {
+        width: 2rem;
+        height: 2rem;
+    }
+
+   
+    .catalog {
+        flex-wrap: wrap;
+        margin-left: -3rem;
+        /* display: grid; */
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        /* column-gap: 1rem; */
+        height: auto;
+        width: auto;
+        margin-right: -2rem;
+
+    }
+
+    .catalog__item {
+        /* width: 100%; */
+        width: calc(33.3333% - 1rem);
+        margin: 0;
+        height: 20rem;
+        margin-left: 1rem;
+    }
+
+    .catalog__item-text {
+        font-size: 2rem;
+        width: 12rem;
+        top: 70%;
+    }
+
+    .catalog__item-img {
+        object-fit: cover;
+    }
+
+    /* Flash sale section */
+
+    .flash-sale {
+        /* margin-top: 36rem; */
+    }
+
+    .flash-sale .countdown__fire-icon {
+        width: 6rem;
+        transform: scale(1.2);
+    }
+
+    .flash-sale__banner-title {
+        font-size: 4.5rem;
+    }
+
+    /* Latest arrivals mobile */
+
+    .for-men ,.for-women ,.for-shoes {
+        margin-top: 3rem;
+    }
+
+
+    /* New collection section */
+
+    .new-collections {
+    }
+
+    .new-collections__text {
+        width: 100%;
+    }
+    
+    .new-collections__items {
+        flex-wrap: wrap;
+    }
+
+    .new-collections__item {
+        width: 100%;
+    }
+
+    .new-collections__title {
+        /* display: none; */
+        /* display: block; */
+        width: 100%;
+        height: 4rem;
+    }
+
+    .new-collections__title::before {
+        content: "NEW COLLECTION";
+        display: inline-block;
+        /* width: 60rem; */
+        /* position: absolute; */
+        /* top: 24rem; */
+        top: 0;
+        left: 3rem;
+        /* left: -26rem; */
+        /* transform: rotate(90deg); */
+        transform: rotate(0);
+        /* font-size: 3.5rem; */
+        font-size: 3rem;
+         font-weight: 700; 
+        color: var(--primary-color-1);
+        width: 35rem;
+        text-align: center;
+
+    }
+
+    .new-collections__img--formen {
+       
+    }
+
+    .new-collections__img--forwomen {
+        
+        margin-left: -0rem;
+        margin-top: 4rem;
+    }
+
+    .new-collections__img {
+        /* width: 70%; */
+    }
+
+    .blog-section__content-left,.blog-section__content-right {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .blog-section__content-desc {
+        text-align: justify;
+    }
+
+    .blog-section__content-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* Footwear section */
+    
+
+    .footwear-banner__container {
+        margin-left: -2rem;
+        margin-right: -2rem;
+    }
+
+    .footwear-banner__img {
+        /* height: 100%; */
+    } 
+    
+    .footwear-banner__shop-btn {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Blog section */
+
+    .blog-section__heading {
+        margin: 2rem 0;
+    }
+
+    .blog-section__title {
+        padding-left: 2rem;
+    }
+
+    .blog-section__content {
+        flex-wrap: wrap;
+    }
+
+    /* feedback section */
+    .feedback__content {
+        flex-wrap: nowrap;
+        margin-left: -2rem;
+        padding: 0rem 2rem;
+        overflow-x: scroll;
+    }
+
+    .feedback__item {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    .feedback__slogan {
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+
+    .feedback__item {
+        margin: 2rem;
+    }
+    
+}

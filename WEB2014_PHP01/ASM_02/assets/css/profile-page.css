@@ -1,0 +1,87 @@
+
+
+
+.nav.nav-tabs {
+    
+}
+
+.nav-item {
+    display: block;
+    width: 100%;
+}
+
+.nav-link {
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.form-group {
+    padding-right: 2rem;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: var(--primary-color-1);
+}
+
+.tab-content {
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: #fff;
+    border: 2px solid var(--primary-color-1);
+    padding: 2rem;
+}
+
+.tab-content .active {
+    background: #fff;
+}
+
+.profile-user__wrap {
+    margin-top: 4rem;
+}
+
+.profile-user__sidebar {
+    width: 25%;
+    padding: 0rem 2rem;
+}
+
+.profile-user__content {
+    width: 75%;
+}
+
+.profile-user__label,.profile-user__btn--edit {
+    background-color: var(--primary-color-1);
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.profile-user__label {
+    display: inline-block;
+    font-size: 1.4rem; 
+}
+
+.profile-user__avatar {
+    text-align: center;
+}
+
+.profile-user__avatar-img {
+    border-radius: 100%;
+    width: 8rem;
+    height: 8rem;
+    display: inline-block;
+    /* padding-bottom: 2rem; */
+    /* object-fit: contain; */
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 2rem;
+}
+
+.profile-user__sidebar-nav-item {
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 1rem 0rem;
+}
+
+.btn {
+    font-size: 1.4rem;
+}

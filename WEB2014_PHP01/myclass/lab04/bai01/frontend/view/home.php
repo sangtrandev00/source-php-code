@@ -1,0 +1,1 @@
+<div><a href="./index.php?act=login">Đăng nhập</a> <a href="./index.php?act=register">Đăng ký</a></div>

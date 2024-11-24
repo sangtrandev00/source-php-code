@@ -1,0 +1,180 @@
+.product-list {
+    flex-wrap: wrap;
+}
+
+
+
+/* Break point for pc */
+@media only screen and (min-width: 63.9375rem) {
+  
+    .product-item {
+        width: calc(100% / 3 - 2rem);
+    }
+
+    .col-3 {
+        width: calc(25% - 2rem);
+    }
+    
+}
+
+/* breakpoint for tablet and mobile */
+@media only screen and (max-width: 63.9375em) {
+    .navbar__list {
+        
+    }
+    .slide-women__intro {
+        margin-left: 4rem;
+    }
+
+    .slide-women__intro-name {
+        font-size: 4.5rem;
+    }
+
+    .slide-women__img-img {
+        object-fit: cover;
+    }
+
+    .shop-content__side-bar {
+        display: none;
+    }
+
+    .shop-content__section {
+        width: 100%;
+    }
+
+    .shop-content__section-desc {
+        text-align: justify;
+    }
+
+    .tablet-product-list {
+        flex-wrap: nowrap;
+    }
+
+    .shop-content__side-bar {
+        display: none;
+        position: absolute;
+        top: 20rem;
+        z-index: 2;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+        background-color: #F5F5F5;
+        width: 32rem;
+    }
+
+    .filter {
+        padding: 1rem 2rem;
+        
+    }
+
+    .filter__search {
+        display: flex;
+        align-items: center;
+    }
+
+    @keyframes fadeLeftIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+}
+
+/* breakpoint for tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .filter__search-title {
+        font-size: 1.8rem;
+    }
+
+    .filter-by__title {
+        font-size: 2.4rem;
+    }
+
+    .filter-by__divider {
+        margin: 1rem 0;
+    }
+
+    .filter-by__cate-title {
+        font-size: 1.8rem;
+    }
+
+    .filter-by__cate-item {
+        font-size: 1.4rem;
+    }
+}
+
+
+/* breakpoint for mobile */
+@media only screen and (max-width: 46.1875em) {
+    .shop-content__side-bar {
+        /* display: block; */
+        top: 30rem;
+    }
+
+    .slide-women {
+        position: relative;
+    }
+
+    .slide-women__intro {
+        /* position: absolute; */
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-left: 0;
+    }
+
+    .slide-women__main {
+        width: 100%;
+    }
+
+    .shop-content__divider {
+        margin: 3rem 0;
+    }
+
+   
+
+    .filter__search-title {
+        font-size: 1.6rem;
+        width: 10rem
+    }
+
+    .filter-by__title {
+        font-size: 1.8rem;
+    }
+
+    .filter-by__divider {
+        margin: 0.5rem 0;
+    }
+
+    .filter-by__collection span {
+        /* font-size: 1.8rem; */
+    }
+
+    .filter-by__cate-title {
+        font-size: 1.8rem;
+    }
+    .filter-by__cate-item {
+        font-size: 1.3rem;
+    }
+
+
+    .product-item__rating-icon {
+        font-size: 1rem;
+    }
+
+    .section-products__sort {
+        /* justify-content: space-around; */
+    }
+    .section-products__sort-bar {
+        width: 48%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+}   
+

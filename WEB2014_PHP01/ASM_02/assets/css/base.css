@@ -1,0 +1,127 @@
+
+/* standardized the system */
+
+:root {
+    /* Color var css */
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: rgba(0,0,0,0.8);
+    --heading-text-color: #4A4A4A;
+    --footer-text-color: #565656;
+    --primary-color-1: #A9B819;
+    --primary-color-2: #DAEE14;
+    --main-hover-color: rgba(218, 238, 20, 50%); 
+    --overlay-bg-color: rgba(0,0,0, 0.2); 
+    --star-rating: #FFC416;
+    --slide-btn-bg-color: #7B7B7B;
+    --bg-product-color: #DEDEDE;
+    --grey-bg-color: #DBDBDB;
+    --flash-sale-bg-color: #EF4444;
+    --product-bg-color: #F5F5F5;
+    --bandage-bg-color:  #858585;
+
+    /* Size var css */
+    --main-nav-height: 4.8rem;
+    --main-header-height: 10rem;
+    --slide-height: 61rem;
+    --catalog-height: 58.2rem;
+    --banner-height: 23rem;
+    --product-item-height: 39rem;
+
+    --lg-spacing: 64px;
+    --md-spacing: 32px;
+    --sm-spacing: 24px;
+    --uderline-spacing: 4px;
+    
+    /*text size css*/
+    --big-heading: 45px;
+    --md-heading: 30px;
+    --big-title: 18px;
+    --md-title: 16px;
+    --sm-title: 14px;
+}
+
+/* background: linear-gradient(90deg, #C0D022 0%, #A9B819 100%); */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: "Raleway", sans-serif; */
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+input,button, textarea, label, select {
+    font-size: 62.5%;
+}
+
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+p {
+    overflow-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
+}
+
+.display-none {
+  display: none!important;
+}
+
+.display-block {
+  display: block!important;
+}
+
+.display-flex {
+  display: flex!important;
+}

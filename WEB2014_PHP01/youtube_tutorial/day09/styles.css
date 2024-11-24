@@ -1,0 +1,12 @@
+
+nav a {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: #ccc;
+    padding: 1rem;
+    text-align: center;
+}

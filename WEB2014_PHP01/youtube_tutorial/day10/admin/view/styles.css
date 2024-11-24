@@ -1,0 +1,49 @@
+*,
+*:before, *:after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+header {
+    background-color: #ccc;
+    padding: 1rem;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem 0;
+    margin-right: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+border: 1px solid #000;
+}
+
+th {
+    border: 1px solid #000;
+}
+
+td {
+    border: 1px solid #000;
+}
+
+td,th {
+    padding: 0.5rem;
+}
+
+section {
+    padding: 1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: #ccc;
+    padding: 1rem;
+    text-align: center;
+}

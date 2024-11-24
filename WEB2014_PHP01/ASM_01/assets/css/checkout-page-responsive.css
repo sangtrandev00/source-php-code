@@ -1,0 +1,43 @@
+/* Break point for desktop */
+@media only screen and (min-width: 63.9375rem) {
+    
+}
+
+/* breakpoint for tablet and mobile */
+@media only screen and (max-width: 63.9375em) {
+
+    .section-heading {
+        font-size: 3rem;
+    }
+
+    .checkout____sub-title {
+        font-size: 2.4rem;
+    }
+
+    .checkout__section {
+        grid-template-columns: 80%;
+        row-gap: 2rem;
+        margin-bottom: 4rem;
+    }
+
+
+}
+
+/* breakpoint for tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+   
+}
+
+
+/* breakpoint for mobile */
+@media only screen and (max-width: 46.1875em) {
+
+    .checkout__section {
+        grid-template-columns: 100%;
+        row-gap: 2rem;
+        margin-bottom: 4rem;
+    }
+    
+}
+

@@ -1,0 +1,2236 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(241, 240, 240);
+    position: relative;
+}
+
+.body1 {
+    background-color: antiquewhite;
+}
+
+.sanphamchinh {
+    background-color: #fff;
+}
+
+/* ===================menu================= */
+.menu1 {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.container-fluid {
+    background-color: rgb(235, 12, 8);
+    padding: 10px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+
+    width: 100%;
+}
+
+.anhquangcao img {
+    width: 100%;
+    height: 50px;
+
+}
+
+.menu .container-fluid .navbar-toggler {
+    color: rgb(6, 6, 6);
+    background-color: #fff;
+}
+
+.menu .container-fluid .navbar-toggler .navbar-toggler-icon {
+    color: #fff;
+
+}
+
+.menu .container-fluid .nav-item a {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* .menu .container-fluid .nav-item .nav-link:hover + .show-cart {
+    background-color: #fff;
+    display:block;
+  
+} */
+
+.menu .container-fluid .nav-item .show-cart .giohang-show img {
+    width: 100px;
+    float: left;
+}
+
+.menu .container-fluid .nav-item .show-cart .giohang-show h6 {
+    color: red;
+    font-weight: 600;
+
+}
+
+.menu .container-fluid .nav-item .show-cart .giohang-show h5 {
+    font-size: 12px;
+
+}
+
+.menu .container-fluid .nav-item .nav-link .show-cart {
+
+    display: block;
+
+}
+
+.menu .container-fluid .nav-item .dropdown-menu {
+    background-color: rgb(183, 32, 13);
+
+}
+
+.menu .container-fluid .nav-item .dropdown-menu li a {
+
+    color: #fff;
+}
+
+.menu .container-fluid .nav-item .dropdown-menu li a:hover {
+
+
+    background-color: rgb(245, 245, 17);
+    color: #000;
+}
+
+.menu .container-fluid .navbar-brand img {
+    width: 100px;
+}
+
+.menu .container-fluid .d-flex .btn {
+    background-color: rgb(238, 246, 13);
+    color: black;
+    border: none;
+
+}
+
+.noidung {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.noidung .danhmuc .danhmucsp h2 {
+    margin-left: 0px;
+    font-size: 15px;
+    padding-top: 5px;
+    color: #fff;
+}
+
+.noidung .danhmuc {
+    width: 25%;
+    background-color: #fff;
+    overflow: hidden;
+    float: left;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.noidung .danhmuc .danhmucsp {
+    padding: 5px 20px;
+    background-color: rgb(26, 146, 146);
+    text-align: center;
+}
+
+.noidung .danhmuc .danhmucsp i {
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.noidung .danhmuc .noidungdanhmucsp {
+    width: 100%;
+}
+
+.noidung .danhmuc .noidungdanhmucsp ul li a img {
+    width: 30px;
+    float: left;
+    margin-right: 20px;
+}
+
+.noidung .danhmuc .noidungdanhmucsp ul li a {
+    padding: 15px 15px;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+
+}
+
+.noidung .danhmuc .noidungdanhmucsp ul li {
+    margin-left: -30px;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+
+}
+
+.noidung .danhmuc .noidungdanhmucsp ul a li:hover {
+    color: rgb(245, 39, 7);
+
+}
+
+.noidung .danhmuc .noidungdanhmucsp ul li:hover {
+    background-color: rgb(255, 234, 0);
+    list-style: none;
+}
+
+.noidung .noidungdanhmucsp ul li {
+    padding: 15.2px;
+    border-bottom: 1px solid rgba(168, 167, 167, 0.814);
+    padding-top: 10px;
+}
+
+.noidung .noidungdanhmucsp ul li a {
+    text-decoration: none;
+    color: #000;
+
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.noidung .banner {
+    width: 74%;
+    float: right;
+}
+
+.noidung .banner .huongdannguoidung {
+    float: left;
+}
+
+.noidung .banner .huongdannguoidung .huongdan {
+    float: left;
+    padding: 2px 10px 0px 10px;
+    background-color: #fff;
+    margin-left: 10px;
+
+}
+
+.noidung .banner .huongdannguoidung .huongdan i {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.noidung .banner .huongdannguoidung .huongdan p {
+    width: 200px;
+}
+
+.noidung .banner .huongdannguoidung .huongdan p:hover {
+    color: rgb(245, 25, 9);
+}
+
+.noidung .banner .huongdannguoidung .huongdan i:hover {
+    color: rgb(248, 8, 8);
+}
+
+.noidung .banner .huongdannguoidung .huongdan a {
+    color: #000;
+    text-decoration: none;
+}
+
+.bannerchinh {
+    margin-top: 60px;
+
+}
+
+.bannerchinh .carousel .carousel-inner .carousel-item a img {
+    width: 100%;
+    height: 400px;
+    transition: 0.2s ease-in-out;
+}
+
+.bannerchinh .carousel .carousel-indicators {
+    z-index: 1;
+}
+
+.menu .thongtinlienhe {
+    margin: auto;
+}
+
+.menu .thongtinlienhe1 {
+    color: #fff;
+}
+
+.menu .thongtinlienhe .thongtinlienhe1 {
+    width: 150px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.menu .thongtinlienhe .thongtinicon {
+    float: left;
+    margin-top: 15px;
+}
+
+.menu .thongtinlienhe .thongtinicon i {
+    float: left;
+    padding-right: 10px;
+}
+
+.menu .thongtinlienhe1 p {
+    margin-bottom: -2px;
+}
+
+.menu .thongtinlienhe1 a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 0px;
+
+
+}
+
+.menu .thongtinlienhe1 a:hover {
+    color: rgb(233, 250, 3);
+}
+
+
+
+
+
+/* =================sản phẩm thu nhỏ============================ */
+.sanphamchinh {
+    max-width: 1200px;
+    margin: auto;
+    clear: both;
+    z-index: 2;
+}
+
+.sanphamthunho2 {
+    max-width: 1200px;
+    overflow: auto;
+}
+
+.sanphamchinh .sanphamthunho {
+    background-color: #fff;
+    width: 1200px;
+}
+
+.sanphamchinh .sanphamthunho .sanphamthunho1 img {
+    width: 80px;
+    height: 100px;
+}
+
+@keyframes hieuungspthunho {
+    0% {
+        transform: rotate(10deg) scale(0.8, 0.8);
+    }
+
+    25% {
+        transform: rotate(-10deg) scale(1, 1);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    75% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+.sanphamchinh .sanphamthunho .sanphamthunho1 {
+    float: left;
+    margin: 17px;
+    margin-top: 50px;
+    height: 110px;
+    /* transition:all 300ms ease-in-out; */
+
+}
+
+@keyframes hieuungspdathang {
+    0% {
+        transform: translateX(-5px);
+    }
+
+    25% {
+        transform: translateX(5px);
+    }
+
+    50% {
+        transform: translateX(-5px);
+    }
+
+    75% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(-5px);
+    }
+}
+
+.sanphamchinh .spdathang img {
+    animation-name: hieuungspdathang;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.sanphamchinh .sanphamthunho .sanphamthunho1 img:hover {
+    animation-name: hieuungspthunho;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+/* .sanphamchinh .sanphamthunho .sanphamthunho1:hover{
+    
+    transform: translate(10%, 10%) scale(1);
+
+} */
+.sanphamchinh .sanphamthunho .sanphamthunho1 a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.sanphamchinh .sanphamthunho .sanphamthunho1 a p {
+    color: #000;
+}
+
+
+
+
+/* ===================Hàng giảm sốc==================== */
+.dathang {
+    margin-top: 40px;
+    background-color: rgb(249, 188, 7);
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.dathang .tieudedathang h2 {
+    font-size: 20px;
+    font-weight: 650;
+    margin-top: 20px;
+    float: left;
+
+}
+
+.dathang .tieudedathang img {
+    width: 60px;
+    margin-left: 10px;
+
+}
+
+.spdathang1 {
+    clear: both;
+}
+
+.dathang .spdathang {
+    width: 220px;
+    background-color: #fff;
+    overflow: hidden;
+    float: left;
+    margin-top: 0px;
+    margin: 8px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    transition: 0.2s ease-in-out;
+    height: 360px;
+}
+
+.dathang .spdathang:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.dathang .spdathang img {
+    width: 100%;
+}
+
+.dathang .spdathang h5 {
+    font-size: 16px;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 10px;
+
+}
+.dathang .spdathang .dong {
+   color:red;
+
+}
+
+.dathang .spdathang h6 {
+    float: left;
+    color: red;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.dathang .spdathang .giohangthem {
+    float: right;
+    margin-right: 20px;
+
+}
+
+.dathang .spdathang .giohangthem button {
+
+    border: none;
+    background-color: #fff;
+}
+
+.dathang .spdathang .giohangthem i {
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: red;
+
+}
+
+.dathang .spdathang p {
+    clear: both;
+    margin-left: 10px;
+    color: rgb(71, 71, 71);
+    text-decoration: line-through;
+    float: left;
+}
+
+.dathang .spdathang em {
+    margin-right: 60px;
+    float: right;
+    color: #fff;
+    padding: 2px;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+@keyframes cart {
+    0% {
+        transform: scale(0.5, 0.5);
+    }
+
+    25% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1, 1);
+    }
+
+    75% {
+        transform: scale(1, 1);
+    }
+
+    100% {
+        transform: scale(0.5, 0.5);
+    }
+}
+
+.img-product {
+    position: absolute;
+    z-index: 9999;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 10px solid rgb(255, 213, 0);
+    transition: all 0.5s ease-in-out;
+    animation-name: cart;
+    animation-duration: 1s;
+}
+
+
+
+/* ====================ảnh thông báo sự kiện================== */
+.anhthongtin img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+
+/* ===================cacmathanghot===================== */
+.cacmathanghot {
+    margin-top: 20px;
+    clear: both;
+}
+
+.cacmathanghot .tieudecacmathanghot {
+    background-color: #fff;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 20px 10px 0px 10px;
+}
+
+.cacmathanghot .tieudecacmathanghot a h2 {
+    font-size: 18px;
+    float: left;
+    color: red;
+}
+
+.cacmathanghot .tieudecacmathanghot .cacdichvu {
+    margin-left: 150px;
+}
+
+.cacmathanghot .tieudecacmathanghot .cacdichvu a {
+    color: #000;
+}
+
+.cacmathanghot .tieudecacmathanghot .cacdichvu a:hover {
+    color: rgb(249, 4, 4);
+}
+
+.cacmathanghot .tieudecacmathanghot .cacdichvu a p {
+    margin: 0px 10px 0px 10px;
+    float: left;
+}
+
+.cacmathanghot .tieudecacmathanghot .xemtatca a p {
+    float: right;
+}
+
+
+
+
+/* ========================Slider các mạt hàng hot================== */
+.cacmathanghot .spcacmathanghot .spcacmathanghot1 .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 480px;
+}
+
+.cacmathanghot .spcacmathanghot .spcacmathanghot1 {
+    width: 35%;
+    float: left;
+}
+
+.cacmathanghot .spcacmathanghot {
+    margin-top: 1px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.cacmathanghot .spcacmathanghot .spcacmathanghot2 {
+    width: 175px;
+    float: left;
+    border: 1px solid rgb(240, 240, 240);
+    margin: 10px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.cacmathanghot .spcacmathanghot .spcacmathanghot2:hover {
+    transform: scale(0.9, 0.9);
+
+}
+
+@keyframes hieuungsphot2 {
+    0% {
+        transform: rotate(5deg) scale(0.6, 0.6);
+    }
+
+    25% {
+        transform: rotate(-5deg) scale(0.8, 0.8);
+    }
+
+    50% {
+        transform: rotate(5deg) scale(0.8, 0.8);
+    }
+
+    75% {
+        transform: rotate(-5deg) scale(0.8, 0.8);
+    }
+
+    100% {
+        transform: rotate(5deg) scale(0.8, 0.8);
+    }
+}
+
+.cacmathanghot .spcacmathanghot .spcacmathanghot2 img {
+    width: 100%;
+    animation-name: hieuungsphot2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.cacmathanghot .spcacmathanghot .spcacmathanghot2 a {
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cacmathanghot .spcacmathanghot .spcacmathanghot2 p {
+    margin-top: 10px;
+}
+
+/* .cacmathanghot .navbar .container-fluid a{
+    color: #fff;
+}
+.cacmathanghot .navbar .container-fluid .navbar-brand{
+    font-weight: 600;
+    border-right: 3px solid #fff;
+    padding-right: 10px;
+}
+.cacmathanghot .navbar .container-fluid .xemtatca a{
+    font-weight: 600;
+    text-decoration: none;
+}
+.cacmathanghot .navbar .container-fluid .xemtatca a:focus{
+    color: #000;
+}
+.cacmathanghot .navbar .container-fluid .xemtatca a:hover{
+    color: #000;
+} */
+
+
+
+
+
+
+
+/* ===========ảnh giới thiệu sản phẩm============ */
+/* @keyframes hieuunganhgt {
+    0% {
+        transform: scale(0.9, 0.9);
+    }
+
+    25% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(0.9, 0.9);
+    }
+
+    75% {
+        transform: scale(1, 1);
+    }
+
+    100% {
+        transform: scale(0.9, 0.9);
+    }
+} */
+
+.sanphamchinh .anhgioithieu {
+    float: left;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sanphamchinh .anhgioithieu a img {
+    width: 32%;
+    margin: 5px;
+    border-radius: 10px;
+    /* animation-name: hieuunganhgt;
+    animation-duration: 8s;
+    animation-iteration-count: infinite; */
+}
+
+/* ==================rebonsive============= */
+@media (min-width: 1399.99px){
+    .menu .nav-item .dropdown-menu .noidungcart_right .cart form {
+    height: 200px;
+    min-width: 800px;
+    overflow: auto;
+}
+}
+@media (max-width: 1399.98px) {
+    .spdathang {
+        width: 18.6% !important;
+    }
+
+    .spcacmathanghot2 {
+        width: 14.5% !important;
+    }
+
+    .formdangnhap1 .formdangnhap {
+        background-image: none;
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .formdangnhap1 .formdangnhap .noidung3 {
+        width: 40%;
+        margin: auto;
+    }
+
+    .sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 {
+        width: 15.5% !important;
+        margin: auto;
+        display: block;
+    }
+    .menu .nav-item .dropdown-menu .noidungcart_right .cart form {
+    height: 200px;
+    min-width: 600px;
+    overflow: auto;
+}
+}
+
+@media (max-width: 1199.98px) {
+    .spdathang {
+        width: 23.3% !important;
+    }
+
+    .spcacmathanghot2 {
+        width: 19.5% !important;
+    }
+
+    .cacmathanghot .spcacmathanghot .spcacmathanghot1 .carousel-inner .carousel-item img {
+
+        height: 580px;
+    }
+
+    /* @keyframes hieuungspthunho2 {
+        0% {transform:translateX(-10px);}
+        25% {transform:translateX(-100px);}
+        50% {transform:translateX(-200px);}
+        75% {transform:translateX(-400px);}
+        100% {transform:translateX(-600px);}
+      }
+      .sanphamchinh .sanphamthunho{
+        animation-name: hieuungspthunho2;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    } */
+    .chitietsp .chitietsp1 .chitietsp2 {
+        width: 40% !important;
+        margin: auto;
+        display: flexbox;
+
+    }
+
+    .chitietsp .chitietsp1 .chitietsp2 #main-img {
+        width: 100% !important;
+        margin: auto;
+        display: block;
+    }
+
+    .chitietsp .chitietsp1 .anhspthunho-sp {
+        width: 100% !important;
+        clear: both;
+        margin: auto;
+        display: block;
+    }
+
+    .chitietsp .chitietsp1 .noidungctsp {
+        width: 45% !important;
+        margin: auto;
+
+    }
+
+    .chitietsp .chitietsp1 .anhspthunho-sp #anhtn {
+        margin-bottom: -10px;
+        width: 18% !important;
+        height: 18% !important;
+    }
+
+    .sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 {
+        width: 18.5% !important;
+        margin: auto;
+        display: block;
+    }
+    .menu .nav-item .dropdown-menu .noidungcart_right .cart form {
+    height: 200px;
+    min-width: 500px;
+    overflow: auto;
+}
+
+}
+
+
+@media (max-width: 991.98px) {
+    .noidung .danhmuc {
+        display: none;
+        clear: both;
+    }
+
+    .banner .huongdannguoidung .huongdan {
+        display: none;
+        clear: both;
+    }
+
+    .banner .bannerchinh {
+        margin-left: -35%;
+        margin-top: 0;
+    }
+
+    .bannerchinh .carousel .carousel-inner .carousel-item a img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .menu .thongtinlienhe {
+        display: none;
+    }
+
+    .noidung {
+        padding-top: 110px;
+    }
+
+    .menu1 .anhquangcao {
+        margin-top: -6px;
+    }
+
+    .menu .navbar-toggler:checked+.navbar-nav {
+        display: none;
+    }
+
+    .cacmathanghot .tieudecacmathanghot .cacdichvu {
+        display: none;
+    }
+
+    .cacmathanghot .spcacmathanghot .spcacmathanghot1 {
+        display: none;
+    }
+
+    .spdathang {
+        width: 31% !important;
+    }
+
+    .spcacmathanghot2 {
+        width: 22.2% !important;
+    }
+    .sanphamchinh .anhgioithieu a img {
+        width: 31.5% !important;
+    }
+    .formdangnhap1 .formdangnhap {
+        background-image: none;
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .formdangnhap1 .formdangnhap .noidung3 {
+        width: 60%;
+        margin: auto;
+    }
+
+    .chitietsp .chitietsp1 .chitietsp2 {
+        width: 100% !important;
+        margin: auto;
+        clear: both;
+        display: flexbox;
+
+    }
+
+    .chitietsp .chitietsp1 .chitietsp2 #main-img {
+        width: 100% !important;
+        margin: auto;
+        clear: both;
+        display: block;
+    }
+
+    .chitietsp .chitietsp1 .anhspthunho-sp {
+        width: 100% !important;
+        clear: both;
+        margin: auto;
+    }
+
+    .chitietsp .chitietsp1 .noidungctsp {
+        width: 100% !important;
+        clear: both;
+        margin: auto;
+
+    }
+
+    .chitietsp .chitietsp1 .anhspthunho-sp #anhtn {
+        margin-bottom: -10px;
+        width: 18% !important;
+        height: 18% !important;
+    }
+
+    .sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 {
+        width: 23% !important;
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .bannerchinh .carousel .carousel-inner .carousel-item a img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .spdathang {
+        width: 30.2% !important;
+    }
+
+    .spcacmathanghot2 {
+        width: 29.5% !important;
+    }
+
+    .formdangnhap1 .formdangnhap {
+        background-image: none;
+        margin-top: 60px;
+        width: 100%;
+    }
+    .sanphamchinh .anhgioithieu a img {
+        width: 30.6% !important;
+    }
+    .formdangnhap1 .formdangnhap .noidung3 {
+        width: 70%;
+        margin: auto;
+    }
+
+    .chitietsp .chitietsp1 {
+        padding: -50px;
+    }
+
+    .chitietsp .chitietsp1 .chitietsp2 {
+        width: 100% !important;
+        margin: auto;
+        clear: both;
+        display: flexbox;
+
+    }
+
+    .chitietsp .chitietsp1 .chitietsp2 #main-img {
+        width: 100% !important;
+        margin: auto;
+        clear: both;
+        display: block;
+    }
+
+    .chitietsp .chitietsp1 .anhspthunho-sp {
+        width: 100% !important;
+        clear: both;
+        margin: auto;
+    }
+
+    .chitietsp .chitietsp1 .noidungctsp {
+        width: 100% !important;
+        clear: both;
+        margin: auto;
+
+    }
+
+    .chitietsp .chitietsp1 .anhspthunho-sp #anhtn {
+        margin-bottom: -10px;
+        width: 18% !important;
+
+    }
+
+    .sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 {
+        width: 30% !important;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .bannerchinh .carousel .carousel-inner .carousel-item a img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .spdathang {
+        width: 45% !important;
+    }
+
+    .spcacmathanghot2 {
+        width: 45% !important;
+    }
+    .sanphamchinh .anhgioithieu a img {
+        width: 30% !important;
+    }
+    .formdangnhap1 .formdangnhap {
+        background-image: none;
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .formdangnhap1 .formdangnhap .noidung3 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .chitietsp .chitietsp1 .chitietsp2 {
+        width: 100% !important;
+        margin: auto;
+        clear: both;
+        display: flexbox;
+
+    }
+
+    .chitietsp .chitietsp1 .chitietsp2 #main-img {
+        width: 100% !important;
+
+    }
+
+    .chitietsp .chitietsp1 .anhspthunho-sp {
+        width: 100% !important;
+        clear: both;
+        margin: auto;
+    }
+
+    .chitietsp .chitietsp1 .noidungctsp {
+        width: 100% !important;
+        clear: both;
+        margin: auto;
+
+    }
+
+    .chitietsp .chitietsp1 .anhspthunho-sp #anhtn {
+        margin-bottom: -10px;
+        width: 18% !important;
+
+    }
+
+    .sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 {
+        width: 46.5% !important;
+    }
+    .menu .nav-item .dropdown-menu .noidungcart_right .cart form {
+    height: 200px;
+    min-width: 300px;
+    overflow: auto;
+}
+
+}
+
+/* Thong bao Popup  */
+.tbpopup .tboverlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(73, 73, 73, 0.459);
+    z-index: 2;
+    display: none;
+}
+
+.tbpopup .tbcontent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: rgba(233, 232, 232, 0);
+    max-width: 500px;
+    z-index: 3;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 20px;
+    display: block;
+    position: fixed;
+    /* box-shadow: 0px 0px 10px #111; */
+}
+
+.tbpopup .tbcontent img {
+    max-width: 100%;
+}
+
+@media (max-width: 700px) {
+    .tbpopup .tbcontent {
+        width: 90%;
+    }
+}
+
+.tbpopup .tbclose-btn {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+    height: 35px;
+    color: #f9f6f6;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    width: 80px;
+}
+
+.tbpopup.active .tboverlay {
+    display: block;
+}
+
+.tbpopup.active .tbcontent {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.tbbuttom {
+    background: #00cc00;
+    color: #fff;
+}
+
+
+/* =====================CART========================= */
+.noidungcart_1 {
+    background-color: rgba(36, 36, 36, 0.744);
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.noidungcart {
+    padding-top: 50px;
+    background-color: rgba(36, 36, 36, 0.744);
+    overflow: hidden;
+}
+
+.noidungcart .noidungcart_left {
+    float: left;
+    width: 40%;
+    margin-left: 10px;
+}
+
+.noidungcart .sanpham_cart1 {
+    float: left;
+}
+
+.noidungcart .noidungcart_left a img {
+    width: 260px;
+    height: 260px;
+    float: left;
+}
+
+.noidungcart .sanpham_cart1_2 {
+    float: left;
+    color: #fff;
+    margin: 10px 10px;
+}
+
+.noidungcart .sanpham_cart1_2 h4 {
+    clear: both;
+    font-size: 18px;
+    width: 160px;
+    height: 60px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.noidungcart .sanpham_cart1_2 em {
+    padding: 2px;
+    background-color: rgb(96, 207, 122);
+    border-radius: 5px;
+
+}
+
+.noidungcart .sanpham_cart1_2 p {
+
+    float: left;
+
+}
+
+.noidungcart .sanpham_cart1_2 em {
+    float: right;
+
+
+}
+
+.noidungcart .sanpham_cart1_2 button {
+    font-size: 15px;
+    clear: both;
+    float: left;
+    padding: 10px 5px;
+    background-color: rgb(255, 2, 2);
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.sanpham_cart2 .product-item:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.sanpham_cart2 .product-item button:hover {
+    background-color: rgb(235, 252, 0);
+}
+
+.product-item-text p {
+    margin-top: 10px;
+    font-weight: 500;
+    color: aqua;
+}
+
+.noidung_1 h2 {
+    clear: both;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.noidung_1 .ngang_1 {
+    width: 100px;
+    border-bottom: 5px solid red;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.sanpham_cart2 {
+
+    overflow: hidden;
+    color: #fff;
+    clear: both;
+    padding-bottom: 30px;
+
+}
+
+.product-item {
+    float: left;
+    margin-left: 18px;
+    max-width: 130px;
+    background-color: rgba(76, 75, 75, 0.768);
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(117, 116, 116);
+    transition: 0.2s ease-in-out;
+}
+
+.product-item h1 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 70px;
+}
+
+.sanpham_cart2 .product-item img {
+    width: 125px;
+    max-height: 100px;
+}
+
+.sanpham_cart2 .product-item button {
+    font-size: 12px;
+    padding: 5px 5px;
+    background-color: rgb(218, 251, 87);
+    border: none;
+    border-radius: 2px;
+    color: rgb(13, 13, 13);
+
+}
+
+/* thanh toán */
+
+/* .menu .navbar .container-fluid .dropdown-menu .nav-item:click + .dropdown-menu {
+    display: block;
+} */
+/* .noidungcart_right {
+
+    float: right;
+    padding-right: 10px;
+}
+
+.cart form {
+    overflow: auto;
+    width: 100%;
+    overflow: auto;
+    height: 200px;
+}
+
+.cart {
+    padding-top: 20px;
+    background-color: rgba(128, 128, 128, 0.786);
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 10px;
+    overflow: auto;
+} */
+
+tbody tr td .title {
+    margin-left: 10px;
+    color: rgb(229, 255, 0);
+    max-width: 500px;
+
+
+}
+
+tbody tr td p {
+    margin-left: -25px;
+    color: rgb(3, 254, 241);
+    font-weight: 500;
+}
+
+tbody tr td .cart-delete {
+    color: rgb(255, 21, 0);
+    font-weight: 900;
+    -webkit-text-stroke: 0.5px rgb(253, 252, 252);
+    margin-left: -5px;
+}
+
+.cart tr th {
+    color: #fff;
+
+
+}
+
+.cart tr td {
+    color: #fff;
+
+}
+
+.cart table {
+    width: 100%;
+
+}
+
+.cart table tr td {
+    border-bottom: 1px solid #fff;
+    padding: 12px 10px;
+
+}
+
+.cart tbody tr td {
+    padding-right: 10px;
+}
+
+.cart table thead tr th:first-child {
+    text-align: left;
+}
+
+.cart button {
+    margin-left: 200px;
+    cursor: pointer;
+    background-color: rgba(65, 65, 65, 0.844);
+    color: rgb(250, 246, 246);
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+
+}
+
+.cart button:hover {
+    background-color: rgba(250, 6, 6, 0.886);
+    color: #fff;
+}
+
+/*-----------------Nâng cao------------------------*/
+/*.cart {
+    position: fixed;
+    height: 100vh;
+    width: 500px;
+    right: 0;
+    top: 0px;
+    background-color: rgb(141, 141, 141);
+    padding: 12px 20px;
+    overflow-y: scroll;
+}
+.cart-icon i {
+    cursor: pointer;
+}*/
+
+/* ===================product carousel===================
+
+
+
+
+
+
+
+
+
+
+
+
+==========================đăng kí*/
+body .formdangnhap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://img.upanh.tv/2022/06/12/Untitled-1-75dba173e4e00a846.png");
+    padding-bottom: 20px;
+    background-size: 120%;
+}
+
+body .formdangnhap1 {
+    padding-top: 120px;
+
+}
+
+body .formdangnhap .noidung3 {
+    margin-top: 50px;
+    margin-left: 50%;
+    background-color: #fff;
+    width: 30%;
+    padding: 30px;
+}
+
+body .formdangnhap .noidung3 .tentrangdk h2 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+body .formdangnhap .noidung3 .frm12 p input {
+    width: 100%;
+    padding: 12px;
+    opacity: 1;
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 5px;
+}
+
+body .formdangnhap .noidung3 .frm12 p button {
+    border: none;
+    background-color: rgb(254, 85, 85);
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+body .formdangnhap .noidung3 .cacachdangnhapkhac .quenmk {
+    float: left;
+}
+
+body .formdangnhap .noidung3 .cacachdangnhapkhac .quenmk a {
+    text-decoration: none;
+}
+
+body .formdangnhap .noidung3 .cacachdangnhapkhac .dangnhapsms {
+    float: right;
+}
+
+body .formdangnhap .noidung3 .cacachdangnhapkhac .dangnhapsms a {
+    text-decoration: none;
+}
+
+body .formdangnhap .noidung3 .cacachdangnhapkhac .hoac {
+    clear: both;
+}
+
+/* body .formdangnhap .noidung3 .cacachdangnhapkhac .hoac hr{
+    float: left;
+} */
+body .formdangnhap .noidung3 .cacachdangnhapkhac .hoac p {
+    text-align: center;
+    background-color: #fff;
+    opacity: 0.6;
+
+}
+
+body .formdangnhap .noidung3 .cacachdangnhapkhac .mangxahoi {
+
+    border: 1px solid rgb(187, 186, 186);
+    width: 31%;
+    border-radius: 5px;
+    float: left;
+    margin: 3px;
+    transition: 0.2s ease-in-out;
+}
+
+body .formdangnhap .noidung3 .cacachdangnhapkhac .mangxahoi img {
+    width: 25px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+body .formdangnhap .noidung3 .cacachdangnhapkhac .mangxahoi:hover {
+    transform: translateY(-5px);
+}
+
+body .formdangnhap .noidung3 .cacachdangnhapkhac .mangxahoi p {
+    margin-top: 2px;
+    padding-left: 40px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+body .formdangnhap .noidung3 .cacachdangnhapkhac .mangxahoi a {
+    text-decoration: none;
+    color: #000;
+}
+
+body .formdangnhap .noidung3 .cacachdangnhapkhac .nguoimoi {
+    text-align: center;
+    margin-top: 80px;
+}
+
+body .formdangnhap .noidung3 .cacachdangnhapkhac .nguoimoi a {
+    text-decoration: none;
+}
+
+#frm1 #baoloi {
+    color: red;
+
+}
+
+
+
+
+/* ======================CHI TIẾT SẢN PHẨM===================== */
+.chitietsp {
+    padding-top: 160px;
+
+}
+
+.chitietsp .chitietsp1 {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.chitietsp .chitietsp1 .chitietsp2 {
+    padding: 20px;
+    float: left;
+    width: 500px;
+}
+
+.chitietsp .chitietsp1 .chitietsp2 img {
+    max-width: 450px;
+    height: 450px;
+}
+
+.chitietsp .chitietsp1 .chitietsp2 p img {
+    width: 85px;
+    height: 85px;
+    transition: 0.2s ease-in-out;
+    border: 3px solid rgb(208, 208, 208);
+    margin: 20px 1px;
+}
+
+.chitietsp .chitietsp1 .chitietsp2 p:focus+#anhtn {
+    border: 3px solid red;
+
+}
+
+.chitietsp .chitietsp1 .chitietsp2 p img:hover {
+    border: 3px solid red;
+
+}
+
+
+.chitietsp .chitietsp1 .noidungctsp {
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 40px;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp p {
+    float: left;
+    margin-right: 10px;
+    background-color: rgb(255, 81, 0);
+    color: #fff;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp h4 {
+    font-size: 20px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .luotdanhgiasp .luotdanhgiasp1 {
+    margin-top: 10px;
+    margin-left: 0px;
+
+}
+
+.chitietsp .chitietsp1 .noidungctsp .luotdanhgiasp .luotdanhgiasp1 p {
+    color: rgb(255, 81, 0);
+    background: none;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .luotdanhgiasp .luotdanhgiasp1 .luotdanhgiasp2 {
+    background-color: rgb(229, 255, 0);
+    font-size: 14px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .luotdanhgiasp .luotdanhgiasp1 .luotdanhgiasp2 {
+    background-color: rgb(229, 255, 0);
+    font-size: 14px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .giasp {
+    clear: both;
+    margin-top: 80px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .thongbaosukien-sp img {
+    width: 80%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .giasp p {
+    background: none;
+    color: rgb(148, 146, 146);
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: line-through;
+    margin: 5px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .giasp h3 {
+    color: rgb(255, 81, 0);
+    float: left;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .giasp .giamgiasp p {
+    color: #fff;
+    background-color: rgb(255, 81, 0);
+    text-decoration: none;
+    margin: 5px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .dealsoc {
+    clear: both;
+    margin-top: 150px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .dealsoc {
+    clear: both;
+    margin-top: 150px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .dealsoc p {
+    background: none;
+    color: rgb(129, 129, 129);
+    font-size: 15px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .vanchuyen {
+    clear: both;
+    margin-top: 150px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .vanchuyen p {
+    background: none;
+    color: rgb(129, 129, 129);
+    font-size: 15px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .vanchuyen p select {
+    border: none;
+    padding-left: 20px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .vanchuyen p select option {
+    opacity: 0.5;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .soluong {
+    clear: both;
+    margin-top: 150px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .soluong p {
+    background: none;
+    color: rgb(129, 129, 129);
+    font-size: 15px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .thanhtoanctsp {
+    clear: both;
+    margin-top: 50px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .thanhtoanctsp .them {
+    background-color: rgba(233, 113, 15, 0.171);
+    border: 1px solid red;
+    padding: 10px 20px;
+    color: red;
+    transition: 0.2s ease-in-out;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .thanhtoanctsp .them:hover {
+    background-color: rgb(249, 77, 4);
+    color: #fff;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .thanhtoanctsp .mua {
+    background-color: rgb(255, 0, 0);
+    border: 1px solid red;
+    padding: 10px 20px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .xemchitiet {
+    clear: both;
+    margin-top: 20px;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .xemchitiet p button {
+    background-color: rgb(249, 77, 4);
+    border: none;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .xemchitiet p button:focus {
+    box-shadow: none;
+}
+
+.chitietsp .chitietsp1 .noidungctsp .xemchitiet .collapse {
+    clear: both;
+}
+
+
+
+/* ============chi tiết mặt hàng================= */
+.chitietcuasp {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: auto;
+    clear: both;
+
+}
+
+.chitietcuasp1 {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.chitietcuasp1 h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px 10px;
+}
+
+.chitietcuasp1 .thongsosp {
+    margin-left: 10px;
+}
+
+.chitietcuasp1 .thongsosp p a {
+    text-decoration: none;
+}
+
+.motacuasp {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.motacuasp .motacuasp-1 {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.motacuasp h3 {
+    font-size: 20px;
+    background-color: #f9f9f9;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+/* ===========ĐÁNH GIÁ SẢN PHẨM================ */
+.danhgiacuasp {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.danhgiacuasp .danhgiacuasp-1 {
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.danhgiacuasp .danhgiacuasp-1 h3 {
+    font-size: 20px;
+    background-color: #f9f9f9;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.danhgiacuasp .danhgiacuasp-1 .saodanhgia {
+    color: rgb(249, 77, 4);
+    background-color: rgb(250, 240, 228);
+    border: 1px solid rgba(249, 77, 4, 0.292);
+    overflow: hidden;
+}
+
+.danhgiacuasp .danhgiacuasp-1 .saodanhgia .saodanhgia-1 {
+    margin: 20px 40px;
+    float: left;
+}
+
+.danhgiacuasp .danhgiacuasp-1 .saodanhgia .saodanhgia-1 h4 {
+    float: left;
+    font-size: 40px;
+
+}
+
+.danhgiacuasp .danhgiacuasp-1 .saodanhgia .saodanhgia-1 h6 {
+    font-size: 15px;
+    padding-top: 20px;
+    margin-left: 65px;
+}
+
+.danhgiacuasp .danhgiacuasp-1 .saodanhgia .saodanhgia-1 p {
+    clear: both;
+}
+
+.danhgiacuasp .danhgiacuasp-1 .saodanhgia .soluotdanhgia {
+    margin-top: 10px;
+}
+
+.danhgiacuasp .danhgiacuasp-1 .saodanhgia .soluotdanhgia .soluotdanhgia-1 .active {
+    color: rgb(249, 77, 4);
+    border: 1px solid rgb(249, 77, 4);
+}
+
+.danhgiacuasp .danhgiacuasp-1 .saodanhgia .soluotdanhgia .soluotdanhgia-1 button {
+    border: 1px solid rgb(214, 212, 212);
+    background-color: #fff;
+    padding: 5px 20px;
+    margin: 5px;
+}
+
+.danhgiacuasp .danhgiacuasp-1 .thongtinnd {
+    margin: 30px;
+}
+
+.danhgiacuasp .danhgiacuasp-1 .logonddg {
+    float: left;
+    width: 80px;
+}
+
+.danhgiacuasp .danhgiacuasp-1 .logonddg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.danhgiacuasp .danhgiacuasp-1 .thongtinnd {
+    font-size: 12px;
+}
+
+.danhgiacuasp .danhgiacuasp-1 .thongtinnd .thongtincanhan-dg p {
+    margin-top: -10px;
+    color: rgb(249, 77, 4);
+}
+
+.danhgiacuasp .danhgiacuasp-1 .thongtinnd .anhdg-kh {
+    clear: both;
+}
+
+.danhgiacuasp .danhgiacuasp-1 .thongtinnd .danhgiasp-kh .anhdg-kh img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+
+
+
+/* ==============NÚT LIKE============== */
+.like {
+    margin-top: 5px;
+}
+
+.fa {
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+    color: rgb(134, 133, 133);
+}
+
+.fa:hover {
+    color: darkblue;
+}
+
+.active {
+    color: rgb(4, 4, 246);
+}
+
+
+
+
+/* =================CÁC SẢN PHẨM KHÁC TRONG CHI TIẾT SẢN PHẨM================== */
+
+.sanphamkhac-sp {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 {
+    background-color: rgb(242, 240, 240);
+    margin-top: 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 h3 {
+    font-size: 20px;
+    background-color: #f9f9f9;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 {
+    width: 180px;
+    background-color: #fff;
+    overflow: hidden;
+    float: left;
+    margin: 6.5px;
+    transition: 0.1s ease-in-out;
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2:hover {
+    box-shadow: 1px 1px 5px rgb(151, 150, 150);
+    transform: translateY(-0.8px);
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 .sanphamkhac-sp-3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 .anhde-sp a img {
+    width: 100%;
+    height: 180px;
+
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 .anhde-sp-1 {
+    width: 180px;
+    height: 200px;
+    margin-top: -220px;
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 .yeuthich-sp {
+    background-color: rgb(249, 77, 4);
+    width: 55px;
+    color: #fff;
+    padding: 2px;
+    position: relative;
+    margin-top: -200px;
+    margin-bottom: 90%;
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 .giamgia-sp-img {
+    width: 50px;
+    float: right;
+    margin-top: -105%;
+    position: relative;
+    margin-bottom: 90%;
+}
+
+
+.sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 a {
+    text-decoration: none;
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 h5 {
+    width: 160px;
+    height: 30px;
+    overflow: hidden;
+    font-size: 13px;
+    color: #000;
+    margin-top: 2px;
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 .thetag p {
+    font-size: 10px;
+    float: left;
+    margin-right: 10px;
+    color: red;
+    border: 1px solid red;
+    padding: 2px;
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 .gia-sp-3 {
+    clear: both;
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 h6 {
+    color: rgb(249, 77, 4);
+    float: left;
+    margin-right: 20px;
+}
+
+.sanphamkhac-sp .sanphamkhac-sp-1 .sanphamkhac-sp-2 p {
+    font-size: 12px;
+    color: #000;
+}
+
+/* ========================SỐ LƯỢNG====================== */
+
+.buttons_added {
+    opacity: 1;
+    display: inline-block;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.is-form {
+    overflow: hidden;
+    position: relative;
+    background-color: #f9f9f9;
+    height: 2.2rem;
+    width: 1.9rem;
+    padding: 0;
+    text-shadow: 1px 1px 1px #fff;
+    border: 1px solid #ddd;
+}
+
+.is-form:focus,
+.input-text:focus {
+    outline: none;
+}
+
+.is-form.minus {
+    border-radius: 4px 0 0 4px;
+}
+
+.is-form.plus {
+    border-radius: 0 4px 4px 0;
+}
+
+.input-qty {
+    background-color: #fff;
+    height: 2.2rem;
+    text-align: center;
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+    padding: 0;
+}
+
+.input-qty::-webkit-outer-spin-button,
+.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+
+
+
+/* =================FOOTER================= */
+footer {
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: 10px;
+    clear: both;
+}
+
+footer .footer {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
+footer .footer-chinh {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer .footer .footer-sp-1 {
+    width: 300px;
+    float: left;
+    margin-top: 20px;
+}
+
+footer .footer-1 .footer-sp-2 {
+    width: 350px;
+    float: left;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+footer .footer-1 {
+    clear: both;
+    max-width: 1200px;
+    margin: auto;
+    border-top: 1px solid rgb(204, 203, 203);
+}
+
+footer .footer-1 .footer-sp-2 h5 {
+    font-size: 16px;
+}
+
+footer .footer-1 .footer-sp-2 p {
+    line-height: 10px;
+}
+
+footer .footer .footer-sp-1 h5 {
+    font-size: 16px;
+}
+
+footer .footer .footer-sp-1 a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000;
+}
+
+footer .footer .footer-sp-1 a:hover {
+    text-decoration: underline;
+    color: rgb(0, 174, 255);
+}
+
+footer .footer-1 .footer-sp-2 img {
+    width: 300px;
+}
+
+footer .footer-1 .footer-sp-2 .mxh a i {
+    float: left;
+    margin-right: 10px;
+    font-size: 25px;
+    padding: 5px;
+    width: 50px;
+}
+
+footer .footer-1 .footer-sp-2 .mxh a p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+footer .footer-1 .footer-sp-2 .mxh a {
+    clear: both;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+footer .footer-1 .footer-sp-2 .mxh a:hover {
+    color: rgb(0, 174, 255);
+    text-decoration: underline;
+}
+
+footer .footer-1 .footer-sp-3 {
+    width: 100%;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-1 .footer-sp-3 img {
+    width: 50%;
+}
+
+footer .footer-1 .chu-web {
+    text-align: center;
+    border-top: 1px solid rgb(218, 217, 217);
+    padding-top: 20px;
+}
+
+footer .footer-1 .chu-web p {
+    font-size: 20px;
+}
+
+footer .footer-1 .chu-web p a {
+    text-decoration: none;
+    color: #00cc00;
+}
+
+footer .footer-1 .chu-web p a:hover {
+    text-decoration: underline;
+
+}
